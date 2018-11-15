@@ -22,7 +22,7 @@ footer {
  <h2>Friends book</h2>
 </header>
 
-<form action="Cervellera.php" method="post">
+<form action="index.php" method="post">
 Name: <input type="text" name="name">
 <input type="submit" value = "new friend">
 </form>
@@ -60,7 +60,7 @@ Name: <input type="text" name="name">
 
 }
 ?>
-<form action="Cervellera.php" method="post">
+<form action="index.php" method="post">
 <input type="text" name="filter" value="<?=$filter?>">
 <input type="submit" value='Filter list'>
 </form>
